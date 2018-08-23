@@ -1,4 +1,12 @@
 
 public class Car extends Vehicle {
-	public int wheels = 4;
+	private int gloveBox;
+	
+	public Car(String type, String numberPlate, int price, int engineSize, int gloveBox) {
+
+		super(type,price,engineSize,numberPlate);
+		
+		this.gloveBox = gloveBox;
+		
+	}	
 }

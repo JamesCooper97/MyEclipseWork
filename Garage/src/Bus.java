@@ -1,4 +1,12 @@
 
 public class Bus extends Vehicle {
-	public int wheels = 6;
+	private int standingCap;
+	
+	public Bus(String type, int price, int engineSize, String numberPlate, int standingCap) {
+		
+		super(type,price,engineSize,numberPlate);
+		
+		this.standingCap = standingCap;
+		
+	}
 }
